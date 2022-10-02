@@ -25,11 +25,13 @@
     <script type="module" src="checkinDate.js"></script>
     <script type="module" src="mainScript.js" defer></script>
     <script type="module" src="navigation.js" defer></script>
-    
+
     <!-- 
         Moi nguoi link file .css va javascript cua trang o day :
      -->
-
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
+    <script type="module" src="item-move-up.js" defer></script>
 </head>
 
 <body>
@@ -108,7 +110,7 @@
         <!-- 
             Day la cai thanh Booking, Neu ko can thiet thi moi nguoi xoa di nhe.
          -->
-        <div class="container-md min-vh-100">
+        <div class="container-md">
             <div class="row">
                 <div class="col-md">
                     <div class="booking-container">
@@ -175,7 +177,525 @@
             Moi nguoi tiep tuc code noi dung cua trang o phia duoi nhe :D
             ...
          -->
+        <section class="services">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-md" style="padding: 0;">
+                        <div class="">
+                            <span class="sub-heading">Services</span>
+                            <h2 class="heading">Cơ sở vật chất & Dịch vụ</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/bed.png" alt="images">
+                            <div>
+                                <h3>Luxury Rooms</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/wifi_FILL0_wght400_GRAD0_opsz48.png" alt="images">
+                            <div>
+                                <h3>Fast & Free Wifi</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/phone_in_talk_FILL0_wght400_GRAD0_opsz48.png" alt="images">
+                            <div>
+                                <h3>Call Us 24/7</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/minor_crash_FILL0_wght400_GRAD0_opsz48.png" alt="images">
+                            <div>
+                                <h3>Travel Accomodation</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/credit_score_FILL0_wght400_GRAD0_opsz48.png" alt="images">
+                            <div>
+                                <h3>Accepts Credit Card</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services__item item-move-up">
+                            <img src="images/dinner_dining_FILL0_wght400_GRAD0_opsz48.png" alt="images">
+                            <div>
+                                <h3>Restaurant</h3>
+                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
+                                    unorthographic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </section>
+        <section class="rooms">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-md" style="padding: 0;">
+                        <div class="">
+                            <span class="sub-heading">FEATURED ROOMS</span>
+                            <h2 class="heading">Rooms & Suites</h2>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Reprehenderit, iusto, omnis!
+                                Quidem, sint, impedit? Dicta eaque delectus tempora hic, corporis velit doloremque quod
+                                quam laborum, nobis iusto autem culpa quaerat!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-md rooms-container">
+                <button class="back-btn" type="button">
+                    <span class="material-symbols-outlined">
+                        arrow_back_ios
+                    </span>
+                </button>
+                <div class="row card-slider">
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-1 item-move-up">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/ximg_1.jpg.pagespeed.ic.SzOVJyV-61.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-inner">
+                                <h3>Bachelor Room</h3>
+                                <span class="card__cost">
+                                    <sup><small>$</small></sup>156<small>/per night</small>
+                                </span>
+                                <ul class="card__information">
+                                    <li>
+                                        Adults: 1
+                                    </li>
+                                    <li>
+                                        Categories: Single
+                                    </li>
+                                    <li>
+                                        Facilities: Closet with hangers, HD flat-screen TV, Telephone
+                                    </li>
+                                    <li>
+                                        Size: 20m<sup>2</sup>
+                                    </li>
+                                    <li>
+                                        Bed Type: One bed
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="next-btn" type="button">
+                    <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span>
+                </button>
+            </div>
+        </section>
+        <section class="restaurant">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-md" style="padding: 0;">
+                        <div class="">
+                            <span class="sub-heading">MENUS</span>
+                            <h2 class="heading">Restaurant Menu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="restaurant-options">
+                        <button type="button" class="restaurant-btn active" data-id="1">
+                            Breakfast
+                        </button>
+                        <button type="button" class="restaurant-btn" data-id="2">
+                            Lunch
+                        </button>
+                        <button type="button" class="restaurant-btn" data-id="3">
+                            Dinner
+                        </button>
+                    </div>
+                </div>
+                <div class="restaurant__menu">
+                    <div class="restaurant__tab show" data-id="1">
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_1.jpg.pagespeed.ic.17PzvDVTzV.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_1.jpg.pagespeed.ic.17PzvDVTzV.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_1.jpg.pagespeed.ic.17PzvDVTzV.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant__tab" data-id="2">
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_2.jpg.pagespeed.ic.yVDb8t8Z6u.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_2.jpg.pagespeed.ic.yVDb8t8Z6u.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_2.jpg.pagespeed.ic.yVDb8t8Z6u.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant__tab" data-id="3">
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_3.jpg.pagespeed.ic.Z2j7PLAFN_.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_3.jpg.pagespeed.ic.Z2j7PLAFN_.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-2">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xmenu_3.jpg.pagespeed.ic.Z2j7PLAFN_.webp"
+                                    alt="">
+                            </div>
+                            <div class="card-info">
+                                <h4>Egg & Asparagus</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui
+                                    quas!</p>
+                                <span class="card-cost">
+                                    <sup><small>$</small></sup>30.50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid banner" id="banner-1">
+            <div>
+                <div>
+                    <h2>Quality accommodation that exceeds the expectations</h2>
+                    <button class="btn-1">
+                        CHI TIẾT
+                    </button>
+                </div>
+            </div>
+        </div>
+        <section class="review">
+            <div class="container-md">
+                <div class="row">
+                    <div class="col-md" style="padding: 0;">
+                        <div class="">
+                            <span class="sub-heading">Reviews</span>
+                            <h2 class="heading">Guest Reviews</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-container">
+                    <div class="card-3">
+                        <div class="reviewer">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xperson_3.jpg.pagespeed.ic.-gXstUNfnO.webp"
+                                    alt="">
+                            </div>
+                            <div class="reviewer-info">
+                                <h4>Martin Newmansfield</h4>
+                                <span><small>Satisfied Customer</small></span>
+                            </div>
+                        </div>
+                        <p>” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse
+                            veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque
+                            inventore accusantium tempore dolores sunt. “</p>
+                    </div>
+                    <div class="card-3">
+                        <div class="reviewer">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xperson_1.jpg.pagespeed.ic.7YcivY9Sgx.webp"
+                                    alt="">
+                            </div>
+                            <div class="reviewer-info">
+                                <h4>Nancy Green</h4>
+                                <span><small>Satisfied Customer</small></span>
+                            </div>
+                        </div>
+                        <p>” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse
+                            veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque
+                            inventore accusantium tempore dolores sunt. “</p>
+                    </div>
+                    <div class="card-3">
+                        <div class="reviewer">
+                            <div class="image-container">
+                                <img src="https://preview.colorlib.com/theme/brighthotel/images/xperson_2.jpg.pagespeed.ic.RZkBqofzSu.webp"
+                                    alt="">
+                            </div>
+                            <div class="reviewer-info">
+                                <h4>Elizabeth Charles</h4>
+                                <span><small>Satisfied Customer</small></span>
+                            </div>
+                        </div>
+                        <p>” Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse
+                            veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque
+                            inventore accusantium tempore dolores sunt. “</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="container-md">
@@ -268,6 +788,13 @@
             <p>Copyright ©2022 All rights reserved | This page is made with by <strong>HERO TEAM</strong> (UTC)</p>
         </div>
     </footer>
+    
+    <!-- Button return top of page -->
+    <button class="btn-back-top" type="button" title="Back to top">
+        <span class="material-symbols-outlined">
+            keyboard_double_arrow_up
+        </span>
+    </button>
 </body>
 
 </html>

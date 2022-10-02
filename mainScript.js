@@ -5,6 +5,8 @@ $(document).ready(function() {
         $('.carousel-image').css({
             'transform' : `translateY(${heightTop}px)`
         })
-    })
-    
+    });
+    $('.btn-back-top').click(function() {
+       $(window).scrollTop(0);
+    });
 })

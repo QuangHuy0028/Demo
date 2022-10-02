@@ -7,6 +7,7 @@
 html,
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* 
@@ -370,4 +371,36 @@ footer .copyright-container {
   width: 100%;
   text-align: center;
   color: rgb(150, 150, 150);
+}
+.btn-back-top {
+  display: flex;
+  z-index: 5;
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% !important;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  animation: btn-back-top-move;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.btn-back-top:hover {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+@keyframes btn-back-top-move {
+  0% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 5px);
+  }
 }
